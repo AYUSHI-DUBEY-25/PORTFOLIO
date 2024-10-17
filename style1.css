@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image:url('profilenew.png'); */     
+     background-color: black; 
+}
+.page{
+    display: flex;
+}
+.sidebar{
+    margin:0;
+    display: flex;
+    font-style: inherit;
+    height: 44rem;
+    width: 100px;
+}
+.sidebar nav{
+    display: block;
+    padding: 10px;
+    background-color:rgb(123, 78, 102);
+    font-size: larger;
+}
+.sidebar a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(240, 243, 222);
+    font-size: larger;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+      
+}
+.sidebar a:hover{
+    color: rgb(175, 140, 71);
+}
+.title{
+    padding-bottom: 100px;
+    padding-left: 500px;
+    text-align: center;
+    color: rgb(240, 243, 222);
+    font-size:large;
+    width: 5px;
+    display: flex;
+}
+.fot{
+    background-color: rgba(0, 0, 0, 0.656);
+    color:beige;
+    text-align: center;
+}
+.sp{
+    display: flex;
+    gap: 100px;
+}
+.skill{
+    width: 500px;
+    height: 400px;
+    padding-left: 200px;
+ 
+}
+.skill h1{
+    font-size: 45px;
+    color: wheat;
+    padding-bottom: 40px;
+}
+.skill li{
+    padding-bottom: 40px;
+    color: rgba(215, 231, 157, 0.915);
+    padding-left: 30px;
+    font-size: 30px;
+    list-style:none;
+    text-decoration: underline dashed;
+}
+.skill h4{
+    padding-bottom: 20px;
+    color: rgb(147, 232, 232);
+    padding-left: 70px;
+    font-size: 20px;
+}
+.pro{
+    width: 500px;
+    height: 400px;
+}
+.pro h1{
+    font-size: 45px;
+    color: wheat;
+    padding-bottom: 40px;
+}
+.pro h4{
+    font-size: 20px;
+    color: rgb(147, 232, 232);
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+.pro li{
+    color: rgba(215, 231, 157, 0.915);
+    padding-bottom: 40px;
+    padding-left: 30px;
+    font-size: 30px;
+    list-style:none;
+    text-decoration: underline dashed;
+}   

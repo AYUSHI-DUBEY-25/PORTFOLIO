@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image:url('new2.jpg'); */
+    background-color: black;
+    
+}
+.page{
+    display: flex;
+}
+.sidebar{
+    margin:0;
+    display: flex;
+    font-style: inherit;
+    height: 44rem;
+    width: 100px;
+}
+.sidebar nav{
+    display: block;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#140d13fe;
+    font-size: larger;
+}
+.sidebar a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(238, 224, 229);
+    font-size: larger;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+      
+}
+.sidebar a:hover{
+    color: rgb(44, 105, 86);
+}
+.title{
+    padding-bottom: 200px;
+    text-align: center;
+    color: rgb(25, 26, 19);
+    font-size:large;
+    width: 5px;
+
+}
+.img{
+    width:200px;
+    padding-left: 85%;
+    padding-top: 0%;
+   /* position: fixed; */
+}
+.middle{
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.fot{
+    background-color: rgba(0, 0, 0, 0.656);
+    color:beige;
+    text-align: center;
+}
+.intro {
+      font-family: "Edu AU VIC WA NT Guides", system-ui;
+      font-optical-sizing: auto; */
+      font-weight: 500;
+      font-style: normal;
+} 
+.clickimginfo{
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    border: 2px solid pink;
+    border-radius: 20px;
+}
+
+.introinfo{
+    display: none;
+    font-size: 20px;
+    color: blue;
+    margin-top: 20px;
+}
+
+.card{
+    background-color: rebeccapurple;
+    width: 50vh;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+    overflow: hidden;
+    transition: all ease 0.6s;
+}
+.card{
+    background-image: url(info.jpg);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.overlay p{
+    color: azure;
+}
+.card:hover .overlay{
+    opacity: 1;
+}

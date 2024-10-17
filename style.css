@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image:url('new2.jpg');
+     */
+     background-color: black;
+}
+.page{
+    display: flex;
+}
+.sidebar{
+    margin:0;
+    display: flex;
+    font-style: inherit;
+    height: 44rem;
+    width: 100px;
+}
+.sidebar nav{
+    display: block;
+    padding: 10px;
+    background-color:rgb(123, 78, 102);
+    font-size: larger;
+}
+.sidebar a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(240, 243, 222);
+    font-size: larger;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+      
+}
+.sidebar a:hover{
+    color: rgb(175, 140, 71);
+}
+.title{
+    padding-bottom: 70px;
+    padding-left: 250px;
+    text-align: center;
+    color: rgb(240, 243, 222);
+    font-size:large;
+    width: 5px;
+
+}
+.middle marquee{
+    color: rgb(123, 78, 102);
+    font-size: larger;
+    background-color:rgb(208, 193, 193);
+    width: 800px;
+
+}
+.img {
+    padding-left: 1%;
+    padding-top: 10%;
+    position: relative;
+}
+.middle{
+    padding-top: 30px;
+    padding-left: 300px;
+}
+.intro{
+    background-color: rgb(123, 78, 102);
+    color: rgb(241, 244, 211);
+    width: 800px;
+    height: 500px;
+    text-align: center; 
+    font-size: larger;
+}
+.intro p{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    font-size: 25px;
+}
+
+
+.fot{
+    background-color: rgba(0, 0, 0, 0.656);
+    color:beige;
+    text-align: center;
+}
+
+
+/* CONTACT PAGE */
+.container{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.form{
+    width:500px;
+    background-color: rgb(214, 159, 189);
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: xx-large;
+}
+#name{
+    background-color: rgb(246, 246, 239);
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(246, 246, 239);
+    display: flex;
+}
+#submit{
+    background-color: rgb(231, 220, 220);
+    width: 100px;
+    height: 30px;
+}
+#submit:hover{
+
+}
+.fmig{
+    background-color: rebeccapurple;
+    display: flex;
+    width: 500px;
+}
+
+
+
+
+
+/*intro page*/
+.clickimginfo{
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    border: 2px solid pink;
+    border-radius: 20px;
+}
+
+.introinfo{
+    display: none;
+    font-size: 20px;
+    color: rgb(187, 86, 131);
+    margin-top: 20px;
+}
+
+
+.card-container{
+    height: 60vh;
+    width: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 70px;
+    position: relative;
+    z-index: 10;
+}
+.card{
+    width: 38%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+    overflow: hidden;
+    transition: all ease 0.6s;
+}
+#card1{ 
+     background-image: url(magic2.png);
+}
+#card2{
+    background-image: url(magic.png);
+}
+.overlay{
+    height:100%;
+    width: 100%;
+    padding: 30px;
+    padding-top: 60px;
+    background-color: rgb(195, 80, 149);
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.overlay p{
+    color: azure;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+} 
+.overlay h4{
+    color: black;
+    white-space: nowrap;
+    padding-top: 2px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.card:hover .overlay{
+    opacity: 1;
+} 
+
+
+/* skillls */
+/* .sp{
+    display: flex;
+    gap: 100px;
+}
+.skill{
+    width: 500px;
+    height: 400px;
+ 
+}
+.skill h1{
+    font-size: 45px;
+    color: wheat;
+    padding-bottom: 40px;
+}
+.skill li{
+    padding-bottom: 40px;
+    color: rgba(215, 231, 157, 0.915);
+    padding-left: 30px;
+    font-size: 30px;
+    list-style:none;
+    text-decoration: underline dashed;
+}
+.skill h4{
+    padding-bottom: 20px;
+    color: rgb(147, 232, 232);
+    padding-left: 70px;
+    font-size: 20px;
+}
+.pro{
+    width: 500px;
+    height: 400px;
+}
+.pro h1{
+    font-size: 45px;
+    color: wheat;
+    padding-bottom: 40px;
+}
+.pro h4{
+    font-size: 20px;
+    color: rgb(147, 232, 232);
+    padding-bottom: 20px;
+}
+.pro li{
+    color: rgba(215, 231, 157, 0.915);
+    padding-bottom: 40px;
+    padding-left: 30px;
+    font-size: 30px;
+    list-style:none;
+    text-decoration: underline dashed;
+}    */
